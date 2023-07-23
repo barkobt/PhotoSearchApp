@@ -1,0 +1,66 @@
+#form-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.searchForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchInput{
+    margin: 10px 0px;
+    width: 75%;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid grey;
+}
+
+input[placeholder]{
+    text-align: center;
+}
+
+.button-wrapper{
+    margin: 10px 0px;
+}
+
+#searchButton{
+    background: rgb(112, 30, 123);
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    color: white;
+    padding: 3px;
+    margin : 0px 5px;
+}
+
+#clearButton{
+    background: rgb(174, 20, 0);
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    color: white;
+    padding: 3px;
+    margin : 0px 5px;
+}
+
+#image-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    margin: 15px;
+    border: 1px solid grey;
+    padding: 15px;
+    box-shadow: 3px 5px 15px 3px grey;
+
+}
+
+
+
+
